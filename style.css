@@ -1,0 +1,106 @@
+
+@media (min-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (min-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (min-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  background-color: #F7F9FC;
+  background-image: url("images/background.PNG");
+  background-size: cover;
+  background-position: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  line-height:10px;
+  font-weight: lighter;
+}
+
+#text-black {
+  color: blue;
+  font-size: 25px;
+}
+
+.img-circle {
+ height: 100px;
+ width: 100px;
+ border-radius: 50%;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 50px;
+  font-weight: 900;
+}
+
+h2 {
+  color: #7ECE90;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-navy {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  background-color: #646ac1;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+.btn-navy:hover {
+  color: black;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+}
+
+.list-inline > li:hover {
+ color: black;
+}
